@@ -18,7 +18,7 @@ jobs:
         run: git clone -b main --depth=1 https://github.com/jyt0106/Z.git
       - name: DIY
         run: |
-          chmod +x diy-T.sh
+          chmod +x diy-Z.sh
           bash ${{ github.workspace }}/diy-Z.sh
       - name: Build With Gradle
         run: |
